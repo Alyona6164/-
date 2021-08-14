@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+  <title>Assignment solution for module2</title>
+  <meta name="viewport" content="width=devide-width,intial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Our Menu</h1>
+  <style>
+    * {
+    box-sizing: border-box; }
+  
+h1 {
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 175%;
+  }
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Console", Courier, monospace;
+}
+section
+ {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+  }
+p {
+    position: relative;
+    clear: right;
+  }
+div {
+    position: relative;
+    background-color: #d3d3d3;
+    border: 3px solid black;
+    width: 100%;
+    padding: 0;
+    margin-left: : 20px;
+    margin-right: : 20px;
+  }
+  .sub1 {
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin: 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #d3d3d3;  
+  }
+  .sub2 {
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #800000;  
+  }
+  .sub3 {
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #FFFF99;  
+  }
+  .content {
+    padding: 5px;
+    border:none;
+    background-color: #d3d3d3;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+  }
+  
+  .row {
+    width: 90%;
+  }
+  
+  /*desktop version*/
+  @media (min-width: 992px){
+    .column-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+  }
+  /*tablet version*/
+  @media (min-width: 768px) and (max-width: 991px){
+    .colmn-md-6 {
+      float: left;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .colmn-md-12 {
+      float: left;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  /*mobile version*/
+  @media (max-width: 767px){
+    .colmn-sm-12 {
+      float: left;
+      width: 100%;
+    }
+  }
+  
+       <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+    
+        <div>
+      <p class="sub1">Chicken</p>
+
+      <p class="content">
+        
+  
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+      </p>
+    </div>
+  </section>
+  <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+    <div>
+      <p class="sub2">Beef</p>
+      <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+      
+    </div>
+  </section>
+  <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+  <div>
+    <p class="sub3">Sushi</p>
+      <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+  </div>
+  
+</body>
+</html>
